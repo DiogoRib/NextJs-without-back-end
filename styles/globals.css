@@ -1,3 +1,96 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#dash{
+  background-color: white;
+  margin:0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section{
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  width: 500px;
+}
+
+#comp{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+.teste{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+
+
+.head{
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+}
+
+#comp > div{
+  padding: 12px;
+  text-align: center;
+}
+
+.btninfo{
+  align-items: center;
+  width: 100px;
+  background-color: green;
+  color: white;
+  border-radius:10%;
+}
+
+.btneliminar{
+  align-items: center;
+  width: 100px;
+  background-color: red;
+  color: white;
+  border-radius:10%;
+}
+
+.btneditar{
+  align-items: center;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border-radius:10%;
+}
+
+
+#dynamic{
+  align-items: center;
+  width: 100vw;
+height: 100vh;
+
+flex-direction: row;
+justify-content: center;
+}
